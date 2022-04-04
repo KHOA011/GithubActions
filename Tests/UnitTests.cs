@@ -30,6 +30,8 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, null));
         }
 
+        // Implement 3 tests per operation, following a similar pattern as above
+        
         //SUBTRACTION
         [Test]
         public void Sub_Valid_Le()
