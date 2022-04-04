@@ -30,7 +30,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, null));
         }
 
-        //SUBTRACTION
+        //SUBTRACTION test
         [Test]
         public void Sub_Valid_Le()
         {
